@@ -276,7 +276,7 @@ return kIMBMediaTypeImage;
 
 + (NSString*) xpcSerivceIdentifier
 {
-	return @"com.karelia.imedia.Aperture";
+	return @"com.karelia.Aperture.imedia";
 }
 
 

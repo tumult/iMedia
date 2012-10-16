@@ -70,8 +70,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "30FFEBEB150A08DB0009C1D0"
-               BuildableName = "com.karelia.imedia.iPhoto.xpc"
-               BlueprintName = "com.karelia.imedia.iPhoto"
+               BuildableName = "com.karelia.iPhoto.imedia.xpc"
+               BlueprintName = "com.karelia.iPhoto.imedia"
                ReferencedContainer = "container:iMedia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,8 +84,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D05D399D152ACD1300E30C43"
-               BuildableName = "com.karelia.imedia.Aperture.xpc"
-               BlueprintName = "com.karelia.imedia.Aperture"
+               BuildableName = "com.karelia.Aperture.imedia.xpc"
+               BlueprintName = "com.karelia.Aperture.imedia"
                ReferencedContainer = "container:iMedia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -79,7 +79,7 @@
 		30FD64661546AF6E0036BDE2 /* NSPasteboard+iMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FD64641546AF6E0036BDE2 /* NSPasteboard+iMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30FD64671546AF6E0036BDE2 /* NSPasteboard+iMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD64651546AF6E0036BDE2 /* NSPasteboard+iMedia.m */; };
 		30FD646B1546BAE90036BDE2 /* IMBApertureHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA064112368388009072AE /* IMBApertureHeaderViewController.m */; };
-		30FFEBFE150A0AA70009C1D0 /* com.karelia.imedia.iPhoto.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = 30FFEBEC150A08DB0009C1D0 /* com.karelia.imedia.iPhoto.xpc */; };
+		30FFEBFE150A0AA70009C1D0 /* com.karelia.iPhoto.imedia.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = 30FFEBEC150A08DB0009C1D0 /* com.karelia.iPhoto.imedia.xpc */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		8F47B39110C416050013ED25 /* IMBOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F47B38F10C416050013ED25 /* IMBOrderedDictionary.h */; };
 		8F47B39210C416050013ED25 /* IMBOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F47B39010C416050013ED25 /* IMBOrderedDictionary.m */; };
@@ -261,7 +261,7 @@
 		D08F82B411E4A1C1006E618E /* IMBQLPreviewPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D08F7F3E11E4974E006E618E /* IMBQLPreviewPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0904DA8152CA51F003FDD08 /* IMBFileSystemObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = D0904DA6152CA51F003FDD08 /* IMBFileSystemObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0904DA9152CA51F003FDD08 /* IMBFileSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D0904DA7152CA51F003FDD08 /* IMBFileSystemObserver.m */; };
-		D0904DAB152CAA4A003FDD08 /* com.karelia.imedia.Aperture.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39AC152ACD1300E30C43 /* com.karelia.imedia.Aperture.xpc */; };
+		D0904DAB152CAA4A003FDD08 /* com.karelia.Aperture.imedia.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39AC152ACD1300E30C43 /* com.karelia.Aperture.imedia.xpc */; };
 		D0904DAC152CAA4A003FDD08 /* com.karelia.imedia.Lightroom.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39BD152ACD2400E30C43 /* com.karelia.imedia.Lightroom.xpc */; };
 		D0904DAD152CAA4A003FDD08 /* com.karelia.imedia.Flickr.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39CE152ACD3300E30C43 /* com.karelia.imedia.Flickr.xpc */; };
 		D0904DAE152CAA4A003FDD08 /* com.karelia.imedia.Safari.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39DF152ACD5E00E30C43 /* com.karelia.imedia.Safari.xpc */; };
@@ -517,7 +517,7 @@
 			dstPath = Contents/XPCServices;
 			dstSubfolderSpec = 1;
 			files = (
-				D0904DAB152CAA4A003FDD08 /* com.karelia.imedia.Aperture.xpc in Copy XPCServices */,
+				D0904DAB152CAA4A003FDD08 /* com.karelia.Aperture.imedia.xpc in Copy XPCServices */,
 				D0904DAC152CAA4A003FDD08 /* com.karelia.imedia.Lightroom.xpc in Copy XPCServices */,
 				D0904DAD152CAA4A003FDD08 /* com.karelia.imedia.Flickr.xpc in Copy XPCServices */,
 				D0904DAE152CAA4A003FDD08 /* com.karelia.imedia.Safari.xpc in Copy XPCServices */,
@@ -527,7 +527,7 @@
 				D054AFFF1529927E00EBFA1C /* com.karelia.imedia.GarageBand.xpc in Copy XPCServices */,
 				D0F2DDCF152486360059DF8D /* com.karelia.imedia.iTunes.xpc in Copy XPCServices */,
 				D0680C3C1518CCCE00CED506 /* com.karelia.imedia.Folder.xpc in Copy XPCServices */,
-				30FFEBFE150A0AA70009C1D0 /* com.karelia.imedia.iPhoto.xpc in Copy XPCServices */,
+				30FFEBFE150A0AA70009C1D0 /* com.karelia.iPhoto.imedia.xpc in Copy XPCServices */,
 			);
 			name = "Copy XPCServices";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,7 +596,7 @@
 		30FD64461545833A0036BDE2 /* IMBApertureParserMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBApertureParserMessenger.m; sourceTree = "<group>"; };
 		30FD64641546AF6E0036BDE2 /* NSPasteboard+iMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboard+iMedia.h"; sourceTree = "<group>"; };
 		30FD64651546AF6E0036BDE2 /* NSPasteboard+iMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPasteboard+iMedia.m"; sourceTree = "<group>"; };
-		30FFEBEC150A08DB0009C1D0 /* com.karelia.imedia.iPhoto.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.iPhoto.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FFEBEC150A08DB0009C1D0 /* com.karelia.iPhoto.imedia.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.iPhoto.imedia.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FFEBEE150A08DB0009C1D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32DBCF5E0370ADEE00C91783 /* iMedia.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMedia.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -733,14 +733,14 @@
 		D054AFE9152984C300EBFA1C /* IMBGarageBandParserMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBGarageBandParserMessenger.m; sourceTree = "<group>"; };
 		D054AFED152984ED00EBFA1C /* com.karelia.imedia.GarageBand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.karelia.imedia.GarageBand.entitlements; sourceTree = "<group>"; };
 		D054AFFD152984FA00EBFA1C /* com.karelia.imedia.GarageBand.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.GarageBand.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05D39AC152ACD1300E30C43 /* com.karelia.imedia.Aperture.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.Aperture.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05D39AC152ACD1300E30C43 /* com.karelia.Aperture.imedia.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.Aperture.imedia.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D39BD152ACD2400E30C43 /* com.karelia.imedia.Lightroom.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.Lightroom.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D39CE152ACD3300E30C43 /* com.karelia.imedia.Flickr.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.Flickr.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D39DF152ACD5E00E30C43 /* com.karelia.imedia.Safari.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.Safari.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D39F0152ACD6800E30C43 /* com.karelia.imedia.Firefox.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.Firefox.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D3A01152ACD8800E30C43 /* com.karelia.imedia.FSEvents.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.FSEvents.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D3A13152AD0D000E30C43 /* com.karelia.imedia.Chrome.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.karelia.imedia.Chrome.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05D3A15152AD27300E30C43 /* com.karelia.imedia.Aperture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.karelia.imedia.Aperture.entitlements; sourceTree = "<group>"; };
+		D05D3A15152AD27300E30C43 /* com.karelia.Aperture.imedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.karelia.Aperture.imedia.entitlements; sourceTree = "<group>"; };
 		D05D3A16152AD28400E30C43 /* com.karelia.imedia.Lightroom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.karelia.imedia.Lightroom.entitlements; sourceTree = "<group>"; };
 		D05D3A17152AD29700E30C43 /* com.karelia.imedia.Flickr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.karelia.imedia.Flickr.entitlements; sourceTree = "<group>"; };
 		D05D3A18152AD2A500E30C43 /* com.karelia.imedia.Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.karelia.imedia.Safari.entitlements; sourceTree = "<group>"; };
@@ -971,7 +971,7 @@
 		D0CB9175150F7753007716FA /* IMBiPhotoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBiPhotoParser.m; sourceTree = "<group>"; };
 		D0CB9179150F832B007716FA /* IMBNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBNode.h; sourceTree = "<group>"; };
 		D0CB917A150F832B007716FA /* IMBNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBNode.m; sourceTree = "<group>"; };
-		D0CB918D1510A23D007716FA /* com.karelia.imedia.iPhoto.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = com.karelia.imedia.iPhoto.entitlements; sourceTree = "<group>"; };
+		D0CB918D1510A23D007716FA /* com.karelia.iPhoto.imedia.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = com.karelia.iPhoto.imedia.entitlements; sourceTree = "<group>"; };
 		D0CE6E1B11F6FA09005EE5B4 /* IMBMetadataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBMetadataTransformer.h; sourceTree = "<group>"; };
 		D0CE6E1C11F6FA09005EE5B4 /* IMBMetadataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBMetadataTransformer.m; sourceTree = "<group>"; };
 		D0CE6E4111F6FD54005EE5B4 /* NSDictionary+iMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+iMedia.h"; sourceTree = "<group>"; };
@@ -1191,11 +1191,11 @@
 			children = (
 				8DC2EF5B0486A6940098B216 /* iMedia.framework */,
 				D09933551011B26E00C527B7 /* iMediaTester.app */,
-				30FFEBEC150A08DB0009C1D0 /* com.karelia.imedia.iPhoto.xpc */,
+				30FFEBEC150A08DB0009C1D0 /* com.karelia.iPhoto.imedia.xpc */,
 				D0E96D021518C9BF004F3EE7 /* com.karelia.imedia.Folder.xpc */,
 				D0F2DDCB152485130059DF8D /* com.karelia.imedia.iTunes.xpc */,
 				D054AFFD152984FA00EBFA1C /* com.karelia.imedia.GarageBand.xpc */,
-				D05D39AC152ACD1300E30C43 /* com.karelia.imedia.Aperture.xpc */,
+				D05D39AC152ACD1300E30C43 /* com.karelia.Aperture.imedia.xpc */,
 				D05D39BD152ACD2400E30C43 /* com.karelia.imedia.Lightroom.xpc */,
 				D05D39CE152ACD3300E30C43 /* com.karelia.imedia.Flickr.xpc */,
 				D05D39DF152ACD5E00E30C43 /* com.karelia.imedia.Safari.xpc */,
@@ -1300,7 +1300,7 @@
 				8FCA064012368388009072AE /* IMBApertureHeaderViewController.h */,
 				8FCA064112368388009072AE /* IMBApertureHeaderViewController.m */,
 				CE6524C11253AF47003A9AA0 /* warning.tiff */,
-				D05D3A15152AD27300E30C43 /* com.karelia.imedia.Aperture.entitlements */,
+				D05D3A15152AD27300E30C43 /* com.karelia.Aperture.imedia.entitlements */,
 			);
 			name = Aperture;
 			sourceTree = "<group>";
@@ -1833,7 +1833,7 @@
 				D0CB916C150F75AE007716FA /* IMBiPhotoImageParser.m */,
 				D0CB916D150F75AE007716FA /* IMBiPhotoMovieParser.h */,
 				D0CB916E150F75AE007716FA /* IMBiPhotoMovieParser.m */,
-				D0CB918D1510A23D007716FA /* com.karelia.imedia.iPhoto.entitlements */,
+				D0CB918D1510A23D007716FA /* com.karelia.iPhoto.imedia.entitlements */,
 			);
 			name = iPhoto;
 			sourceTree = "<group>";
@@ -2122,9 +2122,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		30FFEBEB150A08DB0009C1D0 /* com.karelia.imedia.iPhoto */ = {
+		30FFEBEB150A08DB0009C1D0 /* com.karelia.iPhoto.imedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30FFEBF9150A08DC0009C1D0 /* Build configuration list for PBXNativeTarget "com.karelia.imedia.iPhoto" */;
+			buildConfigurationList = 30FFEBF9150A08DC0009C1D0 /* Build configuration list for PBXNativeTarget "com.karelia.iPhoto.imedia" */;
 			buildPhases = (
 				30FFEBE8150A08DB0009C1D0 /* Sources */,
 				30FFEBE9150A08DB0009C1D0 /* Frameworks */,
@@ -2134,9 +2134,9 @@
 			);
 			dependencies = (
 			);
-			name = com.karelia.imedia.iPhoto;
+			name = com.karelia.iPhoto.imedia;
 			productName = "iPhoto Parser XPC Service";
-			productReference = 30FFEBEC150A08DB0009C1D0 /* com.karelia.imedia.iPhoto.xpc */;
+			productReference = 30FFEBEC150A08DB0009C1D0 /* com.karelia.iPhoto.imedia.xpc */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8DC2EF4F0486A6940098B216 /* iMedia */ = {
@@ -2175,9 +2175,9 @@
 			productReference = D054AFFD152984FA00EBFA1C /* com.karelia.imedia.GarageBand.xpc */;
 			productType = "com.apple.product-type.bundle";
 		};
-		D05D399D152ACD1300E30C43 /* com.karelia.imedia.Aperture */ = {
+		D05D399D152ACD1300E30C43 /* com.karelia.Aperture.imedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D05D39A9152ACD1300E30C43 /* Build configuration list for PBXNativeTarget "com.karelia.imedia.Aperture" */;
+			buildConfigurationList = D05D39A9152ACD1300E30C43 /* Build configuration list for PBXNativeTarget "com.karelia.Aperture.imedia" */;
 			buildPhases = (
 				D05D399E152ACD1300E30C43 /* Sources */,
 				D05D39A0152ACD1300E30C43 /* Frameworks */,
@@ -2187,9 +2187,9 @@
 			);
 			dependencies = (
 			);
-			name = com.karelia.imedia.Aperture;
+			name = com.karelia.Aperture.imedia;
 			productName = "iPhoto Parser XPC Service";
-			productReference = D05D39AC152ACD1300E30C43 /* com.karelia.imedia.Aperture.xpc */;
+			productReference = D05D39AC152ACD1300E30C43 /* com.karelia.Aperture.imedia.xpc */;
 			productType = "com.apple.product-type.bundle";
 		};
 		D05D39AE152ACD2400E30C43 /* com.karelia.imedia.Lightroom */ = {
@@ -2383,8 +2383,8 @@
 				8DC2EF4F0486A6940098B216 /* iMedia */,
 				D09933541011B26E00C527B7 /* iMediaTester */,
 				D0E96CEE1518C9BF004F3EE7 /* com.karelia.imedia.Folder */,
-				30FFEBEB150A08DB0009C1D0 /* com.karelia.imedia.iPhoto */,
-				D05D399D152ACD1300E30C43 /* com.karelia.imedia.Aperture */,
+				30FFEBEB150A08DB0009C1D0 /* com.karelia.iPhoto.imedia */,
+				D05D399D152ACD1300E30C43 /* com.karelia.Aperture.imedia */,
 				D05D39AE152ACD2400E30C43 /* com.karelia.imedia.Lightroom */,
 				D05D39BF152ACD3300E30C43 /* com.karelia.imedia.Flickr */,
 				D0F2DDBC152485130059DF8D /* com.karelia.imedia.iTunes */,
@@ -3667,7 +3667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30FFEBF9150A08DC0009C1D0 /* Build configuration list for PBXNativeTarget "com.karelia.imedia.iPhoto" */ = {
+		30FFEBF9150A08DC0009C1D0 /* Build configuration list for PBXNativeTarget "com.karelia.iPhoto.imedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30FFEBFA150A08DC0009C1D0 /* Debug */,
@@ -3694,7 +3694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D05D39A9152ACD1300E30C43 /* Build configuration list for PBXNativeTarget "com.karelia.imedia.Aperture" */ = {
+		D05D39A9152ACD1300E30C43 /* Build configuration list for PBXNativeTarget "com.karelia.Aperture.imedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D05D39AA152ACD1300E30C43 /* Debug */,

@@ -235,7 +235,7 @@
 
 + (NSString*) xpcSerivceIdentifier
 {
-	return @"com.karelia.imedia.iPhoto";
+	return @"com.karelia.iPhoto.imedia";
 }
 
 
