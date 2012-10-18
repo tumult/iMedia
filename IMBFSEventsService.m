@@ -102,6 +102,12 @@ int main(int argc,const char *argv[])
 {
     NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
 	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+	NSString *libraryDirectory = [paths objectAtIndex:0];
+	NSString *logDirectoryPath = [libraryDirectory stringByAppendingPathComponent:@"Logs"];
+	NSString *logFilePath = [logDirectoryPath stringByAppendingPathComponent:@"HypeLog.txt"];
+	freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "a+", stderr);
+	
 	sDispatchQueue = dispatch_queue_create("com.karelia.imedia.FSEvents",DISPATCH_QUEUE_SERIAL);
 	IMBFSEventsWatcherDelegate* delegate = [[IMBFSEventsWatcherDelegate alloc] init];
 	[[IMBFSEventsWatcher sharedFileWatcher] setDelegate:delegate];

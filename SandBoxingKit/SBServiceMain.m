@@ -71,7 +71,12 @@
 int main(int argc, const char *argv[])
 {
     NSAutoreleasePool* pool1 = [[NSAutoreleasePool alloc] init];
-    
+
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+	NSString *libraryDirectory = [paths objectAtIndex:0];
+	NSString *logDirectoryPath = [libraryDirectory stringByAppendingPathComponent:@"Logs"];
+	NSString *logFilePath = [logDirectoryPath stringByAppendingPathComponent:@"HypeLog.txt"];
+	freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "a+", stderr);
     // TODO/JJ: We should not have a reference to IMBAccessRightsController in here. Any way to put it outside framework?
     // Load the access rights bookmarks to grant access to parts of the file system...
     
