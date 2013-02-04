@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
-	<key>com.apple.security.assets.music.read-write</key>
+	<key>com.apple.security.assets.music.read-only</key>
 	<true/>
 </dict>
 </plist>
