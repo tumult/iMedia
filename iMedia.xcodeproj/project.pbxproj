@@ -510,6 +510,86 @@
 		FC14841E1598887700F6FDB8 /* IMBFlickrParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30D0251309777300463E52 /* IMBFlickrParser.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		948A6B6916C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E96CEE1518C9BF004F3EE7;
+			remoteInfo = com.karelia.imedia.Folder;
+		};
+		948A6B6B16C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FFEBEB150A08DB0009C1D0;
+			remoteInfo = com.karelia.imedia.iPhoto;
+		};
+		948A6B6D16C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D399D152ACD1300E30C43;
+			remoteInfo = com.karelia.imedia.Aperture;
+		};
+		948A6B6F16C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D39AE152ACD2400E30C43;
+			remoteInfo = com.karelia.imedia.Lightroom;
+		};
+		948A6B7116C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D39BF152ACD3300E30C43;
+			remoteInfo = com.karelia.imedia.Flickr;
+		};
+		948A6B7316C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F2DDBC152485130059DF8D;
+			remoteInfo = com.karelia.imedia.iTunes;
+		};
+		948A6B7516C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D054AFEE152984FA00EBFA1C;
+			remoteInfo = com.karelia.imedia.GarageBand;
+		};
+		948A6B7716C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D39D0152ACD5E00E30C43;
+			remoteInfo = com.karelia.imedia.Safari;
+		};
+		948A6B7916C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D39E1152ACD6800E30C43;
+			remoteInfo = com.karelia.imedia.Firefox;
+		};
+		948A6B7B16C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D3A05152AD0D000E30C43;
+			remoteInfo = com.karelia.imedia.Chrome;
+		};
+		948A6B7D16C04A7400115DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D39F2152ACD8800E30C43;
+			remoteInfo = com.karelia.imedia.FSEvents;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		30FFEBFD150A09780009C1D0 /* Copy XPCServices */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -2307,6 +2387,17 @@
 			buildRules = (
 			);
 			dependencies = (
+				948A6B6A16C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B6C16C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B6E16C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7016C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7216C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7416C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7616C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7816C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7A16C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7C16C04A7400115DA9 /* PBXTargetDependency */,
+				948A6B7E16C04A7400115DA9 /* PBXTargetDependency */,
 			);
 			name = iMediaTester;
 			productName = TestApp;
@@ -2871,6 +2962,64 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		948A6B6A16C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E96CEE1518C9BF004F3EE7 /* com.karelia.imedia.Folder */;
+			targetProxy = 948A6B6916C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B6C16C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FFEBEB150A08DB0009C1D0 /* com.karelia.imedia.iPhoto */;
+			targetProxy = 948A6B6B16C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B6E16C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D399D152ACD1300E30C43 /* com.karelia.imedia.Aperture */;
+			targetProxy = 948A6B6D16C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7016C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D39AE152ACD2400E30C43 /* com.karelia.imedia.Lightroom */;
+			targetProxy = 948A6B6F16C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7216C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D39BF152ACD3300E30C43 /* com.karelia.imedia.Flickr */;
+			targetProxy = 948A6B7116C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7416C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F2DDBC152485130059DF8D /* com.karelia.imedia.iTunes */;
+			targetProxy = 948A6B7316C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7616C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D054AFEE152984FA00EBFA1C /* com.karelia.imedia.GarageBand */;
+			targetProxy = 948A6B7516C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7816C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D39D0152ACD5E00E30C43 /* com.karelia.imedia.Safari */;
+			targetProxy = 948A6B7716C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7A16C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D39E1152ACD6800E30C43 /* com.karelia.imedia.Firefox */;
+			targetProxy = 948A6B7916C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7C16C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D3A05152AD0D000E30C43 /* com.karelia.imedia.Chrome */;
+			targetProxy = 948A6B7B16C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+		948A6B7E16C04A7400115DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D39F2152ACD8800E30C43 /* com.karelia.imedia.FSEvents */;
+			targetProxy = 948A6B7D16C04A7400115DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D02CD4CB1224F78E00C773A2 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -2930,6 +3079,7 @@
 			baseConfigurationReference = D0760AC210C5027100F2119C /* IMBProject.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
@@ -2939,10 +3089,9 @@
 			baseConfigurationReference = D0760AC210C5027100F2119C /* IMBProject.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
